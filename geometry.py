@@ -1,5 +1,4 @@
 import math
-
 def validate_radius(radius):
     """Проверка корректности радиуса."""
     if radius <= 0:
@@ -12,3 +11,4 @@ def calculate_area(radius):
 def calculate_perimeter(radius):
     validate_radius(radius)
     return 2 * math.pi * radius
+
